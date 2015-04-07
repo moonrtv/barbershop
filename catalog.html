@@ -41,9 +41,9 @@
     <!-- body -->
     <div class="container clearfix">
 
-      <!--$correct -->
-      <!--<div class="container-top">-->
-        <h1>Средства для ухода</h1>
+      <!-- breadcrumb -->
+      <div class="wrapper-title">
+        <h1 class="title">Средства для ухода</h1>
         <nav class="breadcrumb">
           <ul>
             <li>
@@ -52,17 +52,15 @@
             <li>
               <a href="#">Магазин</a>
             </li>
-            <!--$correct -->
             <li class="activ">
               <a href="#">Средства для ухода</a>
             </li>
           </ul>
         </nav>
-
-      <!--</div>-->
+      </div>
       
       <!-- left block -->
-      <section class="container-left">
+      <section class="column-left">
 
         <form name="query" action="/echo" method="post">
 
@@ -86,7 +84,6 @@
             <input type="checkbox" name="manufacturers" checked>American crew
           </label>
 
-          <!--$correct -->
           <h2>Группа товаров:</h2>
             <label>
               <input type="radio" name="group-product" value="razor" checked>Бритвенные принадлежности
@@ -104,68 +101,78 @@
       </section>
       
       <!-- right block -->
-      <section class="container-right clearfix">
+      <section class="column-right clearfix">
 
-      <!--$correct -->
+      <!-- goods -->
         <article class="goods">
           <a href="#"><img src="http://placehold.it/150x100" alt=""></a>
           <h2><a href="#">Набор для путешествий "Baxter of California"</a></h2>
           <div class="price clearfix">
-            <h2>2 900 руб.</h2>
-            <a href="#" class="btn">Купить</a>
-          </div>
-        </article>
-
-        <article class="goods">
-          <img src="http://placehold.it/150x100" alt="">
-          <h2>Увлажняющий кондиционер "Baxter of California"</h2>
-          <div class="price clearfix">
-            <h2>750 руб.</h2>
+            <span class="amount">2 900 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
         </article>
         <article class="goods">
-          <img src="http://placehold.it/150x100" alt="">
-          <h2>Гель для волос "Suavecito"</h2>
+          <a href="#"><img src="http://placehold.it/150x100" alt=""></a>
+          <h2><a href="#">Увлажняющий кондиционер "Baxter of California"</a></h2>
           <div class="price clearfix">
-            <h2>290 руб.</h2>
+            <span class="amount">750 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
         </article>
         <article class="goods">
-          <img src="http://placehold.it/150x100" alt="">
-          <h2>Глина для укладки волос "American crew"</h2>
+          <a href="#"><img src="http://placehold.it/150x100" alt=""></a>
+          <h2><a href="#">Гель для волос "Suavecito"</a></h2>
           <div class="price clearfix">
-            <h2>500 руб.</h2>
+            <span class="amount">290 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
         </article>
         <article class="goods">
-          <img src="http://placehold.it/150x100" alt="">
-          <h2>Гель для волос "American crew"</h2>
+          <a href="#"><img src="http://placehold.it/150x100" alt=""></a>
+          <h2><a href="#">Глина для укладки волос "American crew"</a></h2>
           <div class="price clearfix">
-            <h2>300 руб.</h2>
+            <span class="amount">500 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
         </article>
         <article class="goods">
-          <img src="http://placehold.it/150x100" alt="">
-          <h2>Набор для бритья "Baxter of California"</h2>
+          <a href="#"><img src="http://placehold.it/150x100" alt=""></a>
+          <h2><a href="#">Гель для волос "American crew"</a></h2>
           <div class="price clearfix">
-            <h2>3 900 руб.</h2>
+            <span class="amount">300 руб.</span>
             <a href="#" class="btn">Купить</a>
           </div>
         </article>
-
+        <article class="goods">
+          <a href="#"><img src="http://placehold.it/150x100" alt=""></a>
+          <h2><a href="#">Набор для бритья "Baxter of California"</a></h2>
+          <div class="price clearfix">
+            <span class="amount">3 900 руб.</span>
+            <a href="#" class="btn">Купить</a>
+          </div>
+        </article>
       </section>
 
-      <!-- navigation -->
-      <article class="navigation">
-        <a href="#" class="social-btn pages">1</a>
-        <a href="#" class="social-btn pages">2</a>
-        <a href="#" class="social-btn pages">3</a>
-        <a href="#" class="social-btn pages">4</a>
-      </article>
+      <!-- pagination -->
+      <div class="pagination-wrapper">
+        <nav class="pagination">
+          <ul class="page-numbers">
+            <li>
+              <a class="page-numbers" href="#">1</a>
+            </li>
+            <li>
+              <span class="page-numbers current">2</span>
+            </li>
+            <li>
+              <a class="page-numbers" href="#">3</a>
+            </li>
+            <li>
+              <a class="page-numbers" href="#">4</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
     </div>
 
