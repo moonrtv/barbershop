@@ -1,3 +1,4 @@
+<!--Для поиска места где я исправил, можно искать по данному тегу - $correct-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,7 +6,8 @@
     <title>Барбершоп «Бородинский»</title>
   </head>
   <body>
-    <!-- Меню -->
+
+    <!-- main-navigation -->
     <header class="main-header">
        <div class="container clearfix">
         <nav class="main-navigation">
@@ -36,13 +38,13 @@
       </div>
     </header>
 
-    <!-- Тело --> 
+    <!-- body --> 
     <div class="container clearfix">
 
-      <!-- Назвать container-top или сontainer-title? --> 
-      <div class="container-top">
+      <!--$correct -->
+      <!-- <div class="container-top"> -->
         <h1>Набор для путешествий "Baxter of California"</h1>
-        <div class="breadcrumb">
+        <nav class="breadcrumb">
           <ul>
             <li>
               <a href="#">Главная</a>
@@ -53,35 +55,39 @@
             <li>
               <a href="#">Средства для ухода</a>
             </li>
-            <li class="last">
+            
+            <!--$correct -->
+            <li class="activ">
               <a href="#">Набор для путешествий "Baxter of California"</a>
             </li>
           </ul>
-        </div>
+        </nav>
 
-      </div>
+      <!-- </div> -->
       
-      <!-- Изображение товара -->
+      <!-- images goods -->
       <section class="container-left">
         <img src="http://placehold.it/150x100" alt="">
-        <img src="http://placehold.it/150x100" alt="">
-        <img src="http://placehold.it/150x100" alt="">
-        <img src="http://placehold.it/150x100" alt="">
+        
+        <!--$correct -->
+        <div class="">
+          <img src="http://placehold.it/150x100" alt="">
+          <img src="http://placehold.it/150x100" alt="">
+          <img src="http://placehold.it/150x100" alt="">
+        </div>
       </section>
 
-      <!-- Блок описания --> 
+
       <section class="container-right">
 
         <section class="description clearfix">
-          <!-- Плохо пока представляю как в можно ровнять элементы, поэтому сделал с помощью таблички -->
-          <table class="border">
-            <tr>
-              <td class="left">Есть в наличии</td>
-              <td class="right">Актикул: Dexter-AE</td>
-            </tr>
-          </table>
+
+          <!--$correct -->
+          <div class="border">
+              <span>Есть в наличии</span>
+              <span>Актикул: Dexter-AE</span>
+          </div>
           <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-          <!-- Не уверен что правильно --> 
           <div class="price clearfix">
             <h2>2 900 руб.</h2>
             <a href="#" class="btn">Купить</a>
@@ -103,7 +109,7 @@
 
     </div>
     
-    <!-- Подвал -->
+    <!-- footer -->
     <footer class="main-footer">
       <div class="container clearfix">
         <section class="footer-contacts">
