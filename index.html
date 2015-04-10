@@ -11,22 +11,22 @@
       <div class="container clearfix">
         <nav class="main-navigation">
           <ul>
-            <li class="active">
+            <li class="active header">
               <a href="#">Главная</a>
             </li>
-            <li>
+            <li class="header">
               <a href="#">Информация</a>
             </li>
-            <li>
+            <li class="header">
               <a href="#">Новости</a>
             </li>
-            <li>
+            <li class="header">
               <a href="text.html">Прайс-лист</a>
             </li>
-            <li>
+            <li class="header">
               <a href="#">Магазин</a>
             </li>
-            <li>
+            <li class="header">
               <a href="#">Контакты</a>
             </li>
           </ul>
@@ -57,21 +57,21 @@
       </section>
       <div class="index-content clearfix">
         <section class="content-column-left">
-          <h2 class="content-column-title">Новости</h2>
+          <h2 class="content-column-title indented">Новости</h2>
           <ul class="news-preview">
             <li>
-              Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки<br>
-              <time datetime="2013-09-25">25 сентября</time>
+              <span class="news text-news">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</span>
+              <time datetime="2013-09-25" class="news indented">25 сентября</time>
             </li>
             <li>
-              В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды<br>
-              <time datetime="2013-09-19">19 сентября</time>
+              <span class="news text-news">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</span>
+              <time datetime="2013-09-19" class="news indented">19 сентября</time>
             </li>
           </ul>
           <a href="#" class="btn">Все новости</a>
         </section>
         <section class="content-column-right">
-          <h2 class="content-column-title">Фотогалерея</h2>
+          <h2 class="content-column-title indented">Фотогалерея</h2>
           <div class="gallery">
             <figure class="gallery-content">
               <img src="img/photo-1.jpg" width="300" height="178" alt="">
@@ -84,7 +84,7 @@
       <div class="index-content clearfix">
         <section class="content-column-left">
           <div class="main-contacts">
-            <h2 class="content-column-title">Контактная информация</h2>
+            <h2 class="content-column-title indented">Контактная информация</h2>
             <p>
               Барбершоп «Бородинский»<br>
               Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -101,7 +101,7 @@
         </section>
         <section class="content-column-right">
           <div class="appointment-form">
-            <h2 class="content-column-title">Записаться</h2>
+            <h2 class="content-column-title indented">Записаться</h2>
             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
             <form action="/echo" method="post">
               <input type="date" name="date" value="" placeholder="Дата">
@@ -120,7 +120,7 @@
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Как нас найти?</a><br>
+          <a class="decoration" href="#">Как нас найти?</a><br>
           телефон: +7 (495) 666-02-66
         </section>
         <section class="footer-social">
@@ -130,7 +130,7 @@
           <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
         </section>
         <section class="footer-copyright">
-          <p>Дизайн сайта:</p>
+          <p>Разработано:</p>
           <a href="#" class="btn">htmlacademy.ru</a>
         </section>
       </div>
