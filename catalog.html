@@ -5,37 +5,38 @@
     <title>Барбершоп «Бородинский»</title>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
-  <body class="body">
+  <body class="single-page">
 
     <!-- header -->
-    <header class="main-header">
-       <div class="container clearfix">
+   <header class="main-header">
+      <div class="container clearfix">
         <nav class="main-navigation">
           <ul>
-            <li class="header">
-              <a href="#">Главная</a>
+            <li>
+              <a class="main-navigation-title" href="#">Главная</a>
             </li>
-            <li class="header">
-              <a href="#">Информация</a>
+            <li>
+              <a class="main-navigation-title" href="#">Информация</a>
             </li>
-            <li class="header">
-              <a href="#">Новости</a>
+            <li>
+              <a class="main-navigation-title" href="#">Новости</a>
             </li>
-            <li class="header">
-              <a href="#">Прайс-лист</a>
+            <li>
+              <a class="main-navigation-title" href="text.html">Прайс-лист</a>
             </li>
-            <li class="active header">
-              <a href="#">Магазин</a>
+            <li class="active">
+              <a class="main-navigation-title" href="catalog.html">Магазин</a>
             </li>
-            <li class="header">
-              <a href="#">Контакты</a>
+            <li>
+              <a class="main-navigation-title" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="user-block">
-          <a class="login" href="#">Вход</a>
-        </div>
+          <div class="user-block">
+            <a href="#" class="login">Вход</a>
+          </div>
       </div>
     </header>
 
@@ -43,18 +44,18 @@
     <div class="container clearfix">
 
       <!-- breadcrumb -->
-      <div class="wrapper-title">
+      <div class="wrapper">
         <h1 class="title">Средства для ухода</h1>
         <nav class="breadcrumb">
           <ul>
-            <li class="breadcrumb-item">
+            <li>
               <a class="breadcrumb-item-text" href="#">Главная</a>
             </li>
-            <li class="breadcrumb-item">
+            <li>
               <a class="breadcrumb-item-text" href="#">Магазин</a>
             </li>
-            <li class="breadcrumb-item activ">
-              <a class="breadcrumb-item-text" href="#">Средства для ухода</a>
+            <li>
+              <a class="breadcrumb-item-text active" href="#">Средства для ухода</a>
             </li>
           </ul>
         </nav>
@@ -65,7 +66,7 @@
 
         <form name="query" action="/echo" method="post">
 
-          <h2 class="indented">Производители:</h2>
+          <h2 class="title">Производители:</h2>
           <label class="select">
             <input type="checkbox" name="manufacturers" checked>Baxter of California
           </label>
@@ -85,7 +86,7 @@
             <input type="checkbox" name="manufacturers" checked>American crew
           </label>
 
-          <h2 class="indented">Группа товаров:</h2>
+          <h2 class="title">Группа товаров:</h2>
             <label class="select">
               <input type="radio" name="group-product" value="razor" checked>Бритвенные принадлежности
             </label>
@@ -107,50 +108,50 @@
       <!-- goods -->
         <article class="goods">
           <a href="#"><img src="img/goods-item-1.jpg" width="220" height="165" alt="Goods"></a>
-          <h3><a href="#">Набор для путешествий "Baxter of California"</a></h3>
+          <h3><a class="goods-title" href="#">Набор для путешествий "Baxter of California"</a></h3>
           <div class="price clearfix">
             <span class="amount">2 900 руб.</span>
-            <a href="#" class="btn">Купить</a>
+            <a href="#" class="btn btn-buy">Купить</a>
           </div>
         </article>
         <article class="goods">
           <a href="#"><img src="img/goods-item-2.jpg" width="220" height="165" alt="Goods"></a>
-          <h3><a href="#">Увлажняющий кондиционер "Baxter of California"</a></h3>
+          <a class="goods-title" href="#">Увлажняющий кондиционер "Baxter of California"</a>
           <div class="price clearfix">
             <span class="amount">750 руб.</span>
-            <a href="#" class="btn">Купить</a>
+            <a href="#" class="btn btn-buy">Купить</a>
           </div>
         </article>
         <article class="goods">
           <a href="#"><img src="img/goods-item-3.jpg" width="220" height="165" alt="Goods"></a>
-          <h3><a href="#">Гель для волос "Suavecito"</a></h3>
+          <a class="goods-title" href="#">Гель для волос "Suavecito"</a>
           <div class="price clearfix">
             <span class="amount">290 руб.</span>
-            <a href="#" class="btn">Купить</a>
+            <a href="#" class="btn btn-buy">Купить</a>
           </div>
         </article>
         <article class="goods">
           <a href="#"><img src="img/goods-item-4.jpg" width="220" height="165" alt="Goods"></a>
-          <h3><a href="#">Глина для укладки волос "American crew"</a></h3>
+          <a class="goods-title" href="#">Глина для укладки волос "American crew"</a>
           <div class="price clearfix">
             <span class="amount">500 руб.</span>
-            <a href="#" class="btn">Купить</a>
+            <a href="#" class="btn btn-buy">Купить</a>
           </div>
         </article>
         <article class="goods">
           <a href="#"><img src="img/goods-item-5.jpg" width="220" height="165" alt="Goods"></a>
-          <h3><a href="#">Гель для волос "American crew"</a></h3>
+          <a class="goods-title" href="#">Гель для волос "American crew"</a>
           <div class="price clearfix">
             <span class="amount">300 руб.</span>
-            <a href="#" class="btn">Купить</a>
+            <a href="#" class="btn btn-buy">Купить</a>
           </div>
         </article>
         <article class="goods">
           <a href="#"><img src="img/goods-item-6.jpg" width="220" height="165" alt="Goods"></a>
-          <h3><a href="#">Набор для бритья "Baxter of California"</a></h3>
+          <a class="goods-title" href="#">Набор для бритья "Baxter of California"</a>
           <div class="price clearfix">
             <span class="amount">3 900 руб.</span>
-            <a href="#" class="btn">Купить</a>
+            <a href="#" class="btn btn-buy">Купить</a>
           </div>
         </article>
       </section>
@@ -159,17 +160,17 @@
       <div class="pagination-wrapper">
         <nav class="pagination">
           <ul>
-            <li class="page-numbers">
-              <a href="#">1</a>
+            <li>
+              <a class="page-numbers" href="#">1</a>
             </li>
-            <li class="page-numbers">
-              <span class="current">2</span>
+            <li>
+              <span class="page-numbers current">2</span>
             </li>
-            <li class="page-numbers">
-              <a href="#">3</a>
+            <li>
+              <a class="page-numbers" href="#">3</a>
             </li>
-            <li class="page-numbers">
-              <a href="#">4</a>
+            <li>
+              <a class="page-numbers" href="#">4</a>
             </li>
           </ul>
         </nav>
