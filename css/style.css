@@ -531,11 +531,10 @@ body {
 
 .column-left {
 	float: left;
-	width: 460;
+	width: 470;
 }
-
 .top, .bottom {
-	width: 460px;	
+  width: 470px; 
 }
 
 .top {
@@ -561,7 +560,7 @@ body {
 	float: right;
 	width: 400px;
 	
-	margin-left: 80px;
+	margin-left: 70px;
 }
 
 .bottom {
