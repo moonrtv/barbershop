@@ -62,40 +62,31 @@
       </div>
       
       <!-- left block -->
-      <section class="column-left-query">
+      <section class="column-lft">
 
         <form name="query" action="/echo" method="post">
 
           <h2 class="title">Производители:</h2>
-          <label class="select">
-            <input type="checkbox" name="manufacturers" checked>Baxter of California
-          </label>
-          <label class="select">
-            <input type="checkbox" name="manufacturers">MR Natty
-          </label>
-          <label class="select">
-            <input type="checkbox" name="manufacturers" checked>Suavecito
-          </label>
-          <label class="select">
-            <input type="checkbox" name="manufacturers">Malin+Goetz
-          </label>
-          <label class="select">
-            <input type="checkbox" name="manufacturers">Murray's
-          </label>
-          <label class="select last">
-            <input type="checkbox" name="manufacturers" checked>American crew
-          </label>
+            <input type="checkbox" name="manufacturers" id="manufacturers-1" checked>
+            <label class="select" for="manufacturers-1">Baxter of California</label>
+            <input type="checkbox" name="manufacturers" id="manufacturers-2">
+            <label class="select" for="manufacturers-2">MR Natty</label>
+            <input type="checkbox" name="manufacturers" id="manufacturers-3" checked>
+            <label class="select" for="manufacturers-3">Suavecito</label>
+            <input type="checkbox" name="manufacturers"  id="manufacturers-4">
+            <label class="select" for="manufacturers-4">Malin+Goetz</label>
+            <input type="checkbox" name="manufacturers"  id="manufacturers-5">
+            <label class="select" for="manufacturers-5">Murray's</label>
+            <input type="checkbox" name="manufacturers" id="manufacturers-6" checked>
+            <label class="select last" for="manufacturers-6">American crew</label>
 
           <h2 class="title">Группа товаров:</h2>
-            <label class="select">
-              <input type="radio" name="group-product" value="razor" checked>Бритвенные принадлежности
-            </label>
-            <label class="select">
-              <input type="radio" name="group-product" value="care">Средства для ухода
-            </label>
-            <label class="select last">
-              <input type="radio" name="group-product" value="accessories">Аксессуары
-            </label>
+            <input type="radio" name="group-product" value="razor" id="group-product-1" checked>
+            <label class="select" for="group-product-1">Бритвенные принадлежности</label>
+            <input type="radio" name="group-product" value="care" id="group-product-2">
+            <label class="select" for="group-product-2">Средства для ухода</label>
+            <input type="radio" name="group-product" value="accessories" id="group-product-3">
+            <label class="select last" for="group-product-3">Аксессуары</label>
           <button class="btn" type="submit" name="submit">Показать</button>
 
         </form>
@@ -103,13 +94,13 @@
       </section>
       
       <!-- right block -->
-      <section class="column-right-query clearfix">
+      <section class="column-rght clearfix">
 
       <!-- goods -->
         <article class="goods">
           <a href="#"><img src="img/goods-item-1.jpg" width="220" height="165" alt="Goods"></a>
           <h3><a class="goods-title" href="#">Набор для путешествий "Baxter of California"</a></h3>
-          <div class="price clearfix">
+          <div class="price">
             <span class="amount">2 900 руб.</span>
             <a href="#" class="btn btn-buy">Купить</a>
           </div>
@@ -117,7 +108,7 @@
         <article class="goods">
           <a href="#"><img src="img/goods-item-2.jpg" width="220" height="165" alt="Goods"></a>
           <a class="goods-title" href="#">Увлажняющий кондиционер "Baxter of California"</a>
-          <div class="price clearfix">
+          <div class="price">
             <span class="amount">750 руб.</span>
             <a href="#" class="btn btn-buy">Купить</a>
           </div>
@@ -125,7 +116,7 @@
         <article class="goods">
           <a href="#"><img src="img/goods-item-3.jpg" width="220" height="165" alt="Goods"></a>
           <a class="goods-title" href="#">Гель для волос "Suavecito"</a>
-          <div class="price clearfix">
+          <div class="price">
             <span class="amount">290 руб.</span>
             <a href="#" class="btn btn-buy">Купить</a>
           </div>
@@ -133,7 +124,7 @@
         <article class="goods">
           <a href="#"><img src="img/goods-item-4.jpg" width="220" height="165" alt="Goods"></a>
           <a class="goods-title" href="#">Глина для укладки волос "American crew"</a>
-          <div class="price clearfix">
+          <div class="price">
             <span class="amount">500 руб.</span>
             <a href="#" class="btn btn-buy">Купить</a>
           </div>
@@ -141,7 +132,7 @@
         <article class="goods">
           <a href="#"><img src="img/goods-item-5.jpg" width="220" height="165" alt="Goods"></a>
           <a class="goods-title" href="#">Гель для волос "American crew"</a>
-          <div class="price clearfix">
+          <div class="price">
             <span class="amount">300 руб.</span>
             <a href="#" class="btn btn-buy">Купить</a>
           </div>
@@ -149,7 +140,7 @@
         <article class="goods">
           <a href="#"><img src="img/goods-item-6.jpg" width="220" height="165" alt="Goods"></a>
           <a class="goods-title" href="#">Набор для бритья "Baxter of California"</a>
-          <div class="price clearfix">
+          <div class="price">
             <span class="amount">3 900 руб.</span>
             <a href="#" class="btn btn-buy">Купить</a>
           </div>
